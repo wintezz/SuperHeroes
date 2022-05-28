@@ -1,14 +1,13 @@
 package com.alexpetrov.okhttpmoshi.data.retrofit
 
 import android.app.Application
-import com.alexpetrov.okhttpmoshi.data.retrofit.entity.ApiService
 import com.alexpetrov.okhttpmoshi.presentation.interfaces.DataSource
 import com.alexpetrov.okhttpmoshi.data.model.HeroModel
 import com.jakewharton.retrofit2.adapter.kotlin.coroutines.CoroutineCallAdapterFactory
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
-class HeroApp : Application(), DataSource<List<HeroModel>> {
+class RetrofitFactory : Application(), DataSource<List<HeroModel>> {
 
     override fun onCreate() {
         super.onCreate()

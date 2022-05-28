@@ -1,4 +1,4 @@
-package com.alexpetrov.okhttpmoshi.data.retrofit.entity
+package com.alexpetrov.okhttpmoshi.data.retrofit
 
 import com.alexpetrov.okhttpmoshi.data.model.HeroModel
 import kotlinx.coroutines.Deferred
