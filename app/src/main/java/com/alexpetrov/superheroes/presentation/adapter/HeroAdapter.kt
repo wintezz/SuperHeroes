@@ -1,13 +1,13 @@
-package com.alexpetrov.okhttpmoshi.presentation.adapter
+package com.alexpetrov.superheroes.presentation.adapter
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.alexpetrov.okhttpmoshi.R
-import com.alexpetrov.okhttpmoshi.data.model.HeroModel
-import com.alexpetrov.okhttpmoshi.databinding.HeroyItemBinding
-import com.alexpetrov.okhttpmoshi.presentation.interfaces.Listener
+import com.alexpetrov.superheroes.R
+import com.alexpetrov.superheroes.data.model.HeroModel
+import com.alexpetrov.superheroes.databinding.HeroyItemBinding
+import com.alexpetrov.superheroes.presentation.interfaces.Listener
 import com.squareup.picasso.Picasso
 
 class HeroAdapter(

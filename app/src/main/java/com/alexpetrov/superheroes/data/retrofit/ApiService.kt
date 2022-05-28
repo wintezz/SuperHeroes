@@ -1,6 +1,6 @@
-package com.alexpetrov.okhttpmoshi.data.retrofit
+package com.alexpetrov.superheroes.data.retrofit
 
-import com.alexpetrov.okhttpmoshi.data.model.HeroModel
+import com.alexpetrov.superheroes.data.model.HeroModel
 import kotlinx.coroutines.Deferred
 import retrofit2.http.GET
 

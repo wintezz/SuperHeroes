@@ -1,8 +1,8 @@
-package com.alexpetrov.okhttpmoshi.presentation.activity
+package com.alexpetrov.superheroes.presentation.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.alexpetrov.okhttpmoshi.R
+import com.alexpetrov.superheroes.R
 
 class SecondActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

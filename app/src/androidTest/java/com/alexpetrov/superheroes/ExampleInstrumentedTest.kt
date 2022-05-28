@@ -1,4 +1,4 @@
-package com.alexpetrov.okhttpmoshi
+package com.alexpetrov.superheroes
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

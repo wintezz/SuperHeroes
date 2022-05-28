@@ -1,4 +1,4 @@
-package com.alexpetrov.okhttpmoshi
+package com.alexpetrov.superheroes
 
 import org.junit.Test
 

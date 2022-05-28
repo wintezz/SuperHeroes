@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.alexpetrov.okhttpmoshi" >
+    package="com.alexpetrov.superheroes" >
 
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:name=".data.retrofit.RetrofitFactory"
+        android:name="com.alexpetrov.superheroes.data.retrofit.RetrofitFactory"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -14,13 +14,13 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.OkHttpMoshi"
+        android:theme="@style/Theme.SuperHeroes"
         tools:targetApi="31" >
         <activity
-            android:name=".presentation.activity.SecondActivity"
+            android:name="com.alexpetrov.superheroes.presentation.activity.SecondActivity"
             android:exported="false" />
         <activity
-            android:name=".presentation.activity.MainActivity"
+            android:name="com.alexpetrov.superheroes.presentation.activity.MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

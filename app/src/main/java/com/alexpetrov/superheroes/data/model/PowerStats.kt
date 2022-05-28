@@ -1,4 +1,4 @@
-package com.alexpetrov.okhttpmoshi.data.model
+package com.alexpetrov.superheroes.data.model
 
 data class PowerStats(
     val intelligence: Int,

@@ -1,13 +1,13 @@
-package com.alexpetrov.okhttpmoshi.presentation.activity
+package com.alexpetrov.superheroes.presentation.activity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.alexpetrov.okhttpmoshi.data.model.HeroModel
-import com.alexpetrov.okhttpmoshi.databinding.ActivityMainBinding
-import com.alexpetrov.okhttpmoshi.presentation.adapter.HeroAdapter
-import com.alexpetrov.okhttpmoshi.presentation.interfaces.Listener
+import com.alexpetrov.superheroes.data.model.HeroModel
+import com.alexpetrov.superheroes.databinding.ActivityMainBinding
+import com.alexpetrov.superheroes.presentation.adapter.HeroAdapter
+import com.alexpetrov.superheroes.presentation.interfaces.Listener
 
 class MainActivity : AppCompatActivity(), Listener {
 
