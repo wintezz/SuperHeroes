@@ -12,7 +12,7 @@ import com.squareup.picasso.Picasso
 
 class MovieAdapter(
     private val movies: MutableList<Movie>,
-    /*private val listener: Listener*/
+    private val listener: Listener
 ) : RecyclerView.Adapter<MovieAdapter.HeroViewHolder>() {
 
 
@@ -28,9 +28,9 @@ class MovieAdapter(
         holder.binding.txtTeam.text = movies[position].team
         holder.binding.producer.text = movies[position].createdby
 
-        /*holder.binding.imageMovie.setOnClickListener {
+        holder.binding.imageMovie.setOnClickListener {
             listener.onClickItem(movies, position)
-        }*/
+        }
 
         Picasso.get()
             .load(movies[position].imageurl)
