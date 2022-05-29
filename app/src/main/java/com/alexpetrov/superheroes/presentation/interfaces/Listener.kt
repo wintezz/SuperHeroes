@@ -1,8 +1,8 @@
 package com.alexpetrov.superheroes.presentation.interfaces
 
-import com.alexpetrov.superheroes.data.model.HeroModel
+import com.alexpetrov.superheroes.data.model.Movie
 
 interface Listener {
-    fun onClickItem(heroModel: List<HeroModel>, position: Int)
+    fun onClickItem(movie: MutableList<Movie>, position: Int)
 }
 

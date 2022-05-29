@@ -8,10 +8,11 @@
         <entry key="app/src/main/res/drawable/ic_favorite.xml" value="0.184" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.184" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.18704710144927536" />
-        <entry key="app/src/main/res/layout/activity_second.xml" value="0.27765073914458793" />
+        <entry key="app/src/main/res/layout/activity_second.xml" value="0.17747984070708786" />
         <entry key="app/src/main/res/layout/fragment_details.xml" value="0.18704710144927536" />
         <entry key="app/src/main/res/layout/fragment_list.xml" value="0.18704710144927536" />
         <entry key="app/src/main/res/layout/heroy_item.xml" value="0.18704710144927536" />
+        <entry key="app/src/main/res/layout/movie_item.xml" value="0.1492630004882813" />
       </map>
     </option>
   </component>
