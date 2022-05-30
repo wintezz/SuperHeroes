@@ -47,13 +47,14 @@ class MainActivity : AppCompatActivity(), Listener {
                 adapter = MovieAdapter(response.body() as MutableList<Movie>,this@MainActivity)
                 adapter.notifyDataSetChanged()
                 binding.recyclerView.adapter = adapter
+                movieInfo = response.body()!!
             }
         })
     }
 
     override fun onClickItem(movie: MutableList<Movie>, position: Int) {
         val intentMovie = Intent(this, SecondActivity::class.java)
-        intentMovie.putExtra("firstapperance", position)
+        intentMovie.putExtra("name", position)
         startActivity(intentMovie)
     }
 
