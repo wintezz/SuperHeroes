@@ -1,4 +1,4 @@
-package com.alexpetrov.superheroes.presentation.interfaces
+package com.alexpetrov.superheroes.domain
 
 import com.alexpetrov.superheroes.data.model.Movie
 

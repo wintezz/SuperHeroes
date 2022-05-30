@@ -10,7 +10,7 @@ import com.alexpetrov.superheroes.data.retrofit.ApiService
 import com.alexpetrov.superheroes.data.retrofit.Repository
 import com.alexpetrov.superheroes.databinding.ActivityMainBinding
 import com.alexpetrov.superheroes.presentation.adapter.MovieAdapter
-import com.alexpetrov.superheroes.presentation.interfaces.Listener
+import com.alexpetrov.superheroes.domain.Listener
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

@@ -7,7 +7,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.alexpetrov.superheroes.R
 import com.alexpetrov.superheroes.data.model.Movie
 import com.alexpetrov.superheroes.databinding.MovieItemBinding
-import com.alexpetrov.superheroes.presentation.interfaces.Listener
+import com.alexpetrov.superheroes.domain.Listener
 import com.squareup.picasso.Picasso
 
 class MovieAdapter(
